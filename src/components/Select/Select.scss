@@ -1,0 +1,13 @@
+.form__dropdown {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml,<svg fill='gray' width='34' height='24' xmlns='http://www.w3.org/2000/svg'><path d='m0,6l12,12l12,-12l-24,0z'/><path fill='none' d='m0,0l24,0l0,24l-24,0l0,-24z'/></svg>");
+  background-position-x: 100%;
+  background-position-y: 5px;
+  background-repeat: no-repeat;
+  width: 300px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  color: gray;
+}

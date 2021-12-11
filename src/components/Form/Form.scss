@@ -1,0 +1,87 @@
+.form {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  padding: 50px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.form__title {
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.form__label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.form__success-message {
+  background-color: #0ea5e9;
+  color: #ffffff;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.form__error-msg {
+  padding: 0 5px;
+  border-radius: 5px;
+  color: red;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.form__input,
+.form__input-card-info {
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: gray;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+}
+
+.form__input {
+  width: 300px;
+}
+
+.form__input-card-info {
+  width: 140px;
+}
+
+.form__input-card {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0 20px;
+}
+
+.form__card-info {
+  position: relative;
+}
+
+.form__input-card-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.form__input-card-icon {
+  font-size: 16px;
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  color: #333333;
+
+}
